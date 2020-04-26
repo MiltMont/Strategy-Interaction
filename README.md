@@ -14,14 +14,13 @@ Instalar las librerías de python necesarias:
 ```
 pip install future regex pprint PyInquirer
 ```
-Otorgar permiso de ejecución:
+
+### Installing
+
 ```
+git clone https://github.com/MiltMont/Strategy-Interaction.git
+cd Strategy-Interaction/
 chmod +x start
-```
-
-### Running
-
-```
 ./start
 ```
 
