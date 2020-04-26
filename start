@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd src/
+
+mkdir OutputData/
+
+python3 main.py
+
+cat OutputData/PlayersInitial.txt
+cat OutputData/ActionsMatrix.txt
+cat OutputData/StrategyMatrix.txt
+cat OutputData/PlayersFinal.txt
+
